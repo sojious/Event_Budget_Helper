@@ -21,7 +21,7 @@ status = budget_status(60000,total_cost)   # Below Budget Case ------ Expected :
 print (status)
 
 total_cost = event_total (10,800,200,500)
-status = budget_status(53000,total_cost)   # Below Budget Case ------ Expected : "Within budget", Actual : "Within budget"
+status = budget_status(53000,total_cost)   # Equal to budget Case ------ Expected : "Within budget", Actual : "Within budget"
 print (status)
 
 total_cost = event_total (10,800,200,500)
